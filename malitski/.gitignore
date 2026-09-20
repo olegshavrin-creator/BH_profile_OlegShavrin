@@ -1,0 +1,19 @@
+# видео, результаты обработки и любые персональные материалы здесь не хранятся
+*.mp4
+*.MP4
+*.mov
+*.wav
+web_jobs/
+data/
+
+# веса моделей скачиваются отдельно (см. readme.md)
+*.pt
+*.pth
+*.ckpt
+
+# python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+*.log

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bs2-studio"
+version = "2.0.0a1"
+description = "BS 2.0: Big Five plus emotion, voice, facial-expression and speech analytics from a video. Separate project from bs 1.0 (own package, port, work dir)."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+bs2 = "bs2.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["bs2*"]
+
+[tool.setuptools.package-data]
+bs2 = ["*.json", "mm/*.csv"]
