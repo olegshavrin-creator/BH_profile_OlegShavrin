@@ -1,0 +1,96 @@
+{
+  "version": "p07_repetition_rf_v5",
+  "window_seconds": 2.4,
+  "hop_seconds": 0.1,
+  "start_threshold": 0.7,
+  "end_threshold": 0.5999999999999999,
+  "macro_iou": 0.9241889559965487,
+  "macro_f1": 0.9589630862975514,
+  "macro_precision": 0.9398907103825137,
+  "macro_recall": 0.9842982456140351,
+  "macro_boundary_score": 0.8537037037037019,
+  "macro_objective": 0.9175268335432043,
+  "oob_accuracy": 0.988134475939354,
+  "feature_count": 108,
+  "base_training_videos": {
+    "Nikolaev(melkie_dvizheniya)3.mp4": [
+      [
+        10.0,
+        50.0
+      ]
+    ],
+    "My_Interview(melkie_dvizheniya)2.mp4": [
+      [
+        13.0,
+        18.0
+      ]
+    ]
+  },
+  "hard_training_video": "My_Interview.mp4",
+  "hard_positive_intervals": [
+    [
+      86.0,
+      96.0
+    ],
+    [
+      112.0,
+      118.0
+    ],
+    [
+      301.0,
+      304.0
+    ]
+  ],
+  "hard_negative_intervals": [
+    [
+      109.0,
+      112.0
+    ],
+    [
+      127.0,
+      130.0
+    ],
+    [
+      244.0,
+      250.0
+    ],
+    [
+      296.0,
+      299.0
+    ]
+  ],
+  "note": "P07 V4: RandomForest обучен заново на base training videos + явно размеченных hard-positive/hard-negative окнах My_Interview. Остальная часть hard-video не использовалась как negative.",
+  "additional_v5_fn_video": {
+    "video": "4930808830503822569_cut(p07_1).MP4",
+    "positive_intervals": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        7.0,
+        10.0
+      ],
+      [
+        17.0,
+        20.0
+      ],
+      [
+        22.0,
+        34.0
+      ],
+      [
+        35.0,
+        44.0
+      ],
+      [
+        46.0,
+        50.0
+      ]
+    ],
+    "negative_intervals": [],
+    "training_mode": "hard_positive_only_unmarked_ignored",
+    "used_for_threshold_calibration": false,
+    "note": "V4 missed all listed P07 events on this clip. Only explicit P07 intervals were added to RF training. Unmarked areas were ignored and did not become negatives."
+  }
+}

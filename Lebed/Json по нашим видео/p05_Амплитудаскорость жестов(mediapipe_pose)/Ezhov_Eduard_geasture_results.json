@@ -1,0 +1,5954 @@
+{
+  "schema": "bs_profiling_cut_v1",
+  "created_utc": "2026-09-14T04:35:08.254125+00:00",
+  "tracker": "MediaPipe Pose Landmarker — P05 amplitude/speed",
+  "video": "D:\\Стажировка Братские сердца\\Мультимодалка\\Видео от команды\\Ezhov_Eduard.mp4",
+  "video_name": "Ezhov_Eduard.mp4",
+  "timing": {
+    "video_duration_sec": 651.818,
+    "video_duration_human": "10м 52с",
+    "video_duration_min": 10.86,
+    "run_duration_sec": 5121.14,
+    "run_duration_human": "1ч 25м 21с",
+    "run_duration_min": 85.35,
+    "processed_duration_sec": 651.818,
+    "processed_duration_human": "10м 52с",
+    "processed_full_video": true,
+    "speed_ratio": 0.127,
+    "wall_sec_per_video_min": 471.4,
+    "frames_total": 19463,
+    "frames_processed": 19463,
+    "video_fps": 29.86,
+    "effective_fps": 3.801,
+    "run_finished_local": "2026-09-14 09:35",
+    "note": "P05 detector unchanged; JSON logger observes existing HandGestureTracker states."
+  },
+  "duration_processed_sec": 651.818,
+  "video_file_duration_sec": 651.818,
+  "timeline_file": null,
+  "timeline_segments": [],
+  "patterns_hud": [
+    {
+      "code": "P01",
+      "name": "моргание",
+      "count": 0
+    },
+    {
+      "code": "P02",
+      "name": "кивок",
+      "count": 0
+    },
+    {
+      "code": "P03",
+      "name": "голова",
+      "count": 0
+    },
+    {
+      "code": "P04",
+      "name": "жест",
+      "count": 0
+    },
+    {
+      "code": "P05",
+      "name": "ампл.жеста",
+      "count": 53
+    },
+    {
+      "code": "P06",
+      "name": "рука у лица",
+      "count": 0
+    },
+    {
+      "code": "P07",
+      "name": "мелкие движ.",
+      "count": 0
+    },
+    {
+      "code": "P08",
+      "name": "положение рук",
+      "count": 0
+    },
+    {
+      "code": "P09",
+      "name": "смена позы",
+      "count": 0
+    },
+    {
+      "code": "P10",
+      "name": "уголки губ",
+      "count": 0
+    },
+    {
+      "code": "P11",
+      "name": "брови/губы",
+      "count": 0
+    },
+    {
+      "code": "P12",
+      "name": "взгляд",
+      "count": 0
+    }
+  ],
+  "cuts": [
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 0.1,
+      "t_end": 64.803,
+      "start_sec": 0.1,
+      "end_sec": 64.803,
+      "duration_sec": 64.703,
+      "amplitude": 0.962537,
+      "mean_speed": 0.650296,
+      "peak_speed": 4.033152,
+      "path": 42.071266,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "right",
+      "hand_name": "правая рука",
+      "t_start": 10.65,
+      "t_end": 651.818,
+      "start_sec": 10.65,
+      "end_sec": 651.818,
+      "duration_sec": 641.169,
+      "amplitude": 0.027946,
+      "mean_speed": 6.6e-05,
+      "peak_speed": 0.238079,
+      "path": 0.047493,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 65.306,
+      "t_end": 94.476,
+      "start_sec": 65.306,
+      "end_sec": 94.476,
+      "duration_sec": 29.17,
+      "amplitude": 0.267374,
+      "mean_speed": 0.226516,
+      "peak_speed": 1.782991,
+      "path": 6.606066,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 94.61,
+      "t_end": 140.357,
+      "start_sec": 94.61,
+      "end_sec": 140.357,
+      "duration_sec": 45.748,
+      "amplitude": 0.359166,
+      "mean_speed": 0.477784,
+      "peak_speed": 1.906971,
+      "path": 21.853678,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 140.424,
+      "t_end": 146.117,
+      "start_sec": 140.424,
+      "end_sec": 146.117,
+      "duration_sec": 5.693,
+      "amplitude": 0.191903,
+      "mean_speed": 0.531225,
+      "peak_speed": 1.469558,
+      "path": 3.029232,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 146.352,
+      "t_end": 196.152,
+      "start_sec": 146.352,
+      "end_sec": 196.152,
+      "duration_sec": 49.8,
+      "amplitude": 0.30485,
+      "mean_speed": 0.449674,
+      "peak_speed": 2.617991,
+      "path": 22.389563,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 196.219,
+      "t_end": 311.391,
+      "start_sec": 196.219,
+      "end_sec": 311.391,
+      "duration_sec": 115.173,
+      "amplitude": 0.442674,
+      "mean_speed": 0.499833,
+      "peak_speed": 2.08664,
+      "path": 57.566734,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 313.099,
+      "t_end": 313.635,
+      "start_sec": 313.099,
+      "end_sec": 313.635,
+      "duration_sec": 0.536,
+      "amplitude": 0.012999,
+      "mean_speed": 0.106563,
+      "peak_speed": 0.186139,
+      "path": 0.0564,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 315.611,
+      "t_end": 316.951,
+      "start_sec": 315.611,
+      "end_sec": 316.951,
+      "duration_sec": 1.34,
+      "amplitude": 0.024792,
+      "mean_speed": 0.121712,
+      "peak_speed": 0.189684,
+      "path": 0.161733,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 317.319,
+      "t_end": 320.065,
+      "start_sec": 317.319,
+      "end_sec": 320.065,
+      "duration_sec": 2.746,
+      "amplitude": 0.042168,
+      "mean_speed": 0.130161,
+      "peak_speed": 0.270738,
+      "path": 0.349492,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 321.036,
+      "t_end": 323.213,
+      "start_sec": 321.036,
+      "end_sec": 323.213,
+      "duration_sec": 2.177,
+      "amplitude": 0.030323,
+      "mean_speed": 0.104265,
+      "peak_speed": 0.210107,
+      "path": 0.223173,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 324.251,
+      "t_end": 325.759,
+      "start_sec": 324.251,
+      "end_sec": 325.759,
+      "duration_sec": 1.507,
+      "amplitude": 0.064282,
+      "mean_speed": 0.145553,
+      "peak_speed": 0.403119,
+      "path": 0.214228,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 326.864,
+      "t_end": 327.5,
+      "start_sec": 326.864,
+      "end_sec": 327.5,
+      "duration_sec": 0.636,
+      "amplitude": 0.040256,
+      "mean_speed": 0.203232,
+      "peak_speed": 0.432252,
+      "path": 0.12523,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 327.768,
+      "t_end": 334.968,
+      "start_sec": 327.768,
+      "end_sec": 334.968,
+      "duration_sec": 7.2,
+      "amplitude": 0.190621,
+      "mean_speed": 0.309834,
+      "peak_speed": 1.074887,
+      "path": 2.224001,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 335.571,
+      "t_end": 336.542,
+      "start_sec": 335.571,
+      "end_sec": 336.542,
+      "duration_sec": 0.971,
+      "amplitude": 0.078872,
+      "mean_speed": 0.201363,
+      "peak_speed": 0.66083,
+      "path": 0.193197,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 336.743,
+      "t_end": 337.581,
+      "start_sec": 336.743,
+      "end_sec": 337.581,
+      "duration_sec": 0.837,
+      "amplitude": 0.046113,
+      "mean_speed": 0.166658,
+      "peak_speed": 0.322253,
+      "path": 0.138786,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 337.915,
+      "t_end": 369.262,
+      "start_sec": 337.915,
+      "end_sec": 369.262,
+      "duration_sec": 31.347,
+      "amplitude": 0.443893,
+      "mean_speed": 0.346385,
+      "peak_speed": 1.878512,
+      "path": 10.858158,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 369.698,
+      "t_end": 374.755,
+      "start_sec": 369.698,
+      "end_sec": 374.755,
+      "duration_sec": 5.057,
+      "amplitude": 0.123767,
+      "mean_speed": 0.184905,
+      "peak_speed": 0.793901,
+      "path": 0.932177,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 375.357,
+      "t_end": 393.543,
+      "start_sec": 375.357,
+      "end_sec": 393.543,
+      "duration_sec": 18.185,
+      "amplitude": 0.11314,
+      "mean_speed": 0.276416,
+      "peak_speed": 0.790213,
+      "path": 5.023741,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 393.643,
+      "t_end": 404.527,
+      "start_sec": 393.643,
+      "end_sec": 404.527,
+      "duration_sec": 10.884,
+      "amplitude": 0.09746,
+      "mean_speed": 0.238183,
+      "peak_speed": 0.698594,
+      "path": 2.588027,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 404.862,
+      "t_end": 427.267,
+      "start_sec": 404.862,
+      "end_sec": 427.267,
+      "duration_sec": 22.405,
+      "amplitude": 0.196761,
+      "mean_speed": 0.294383,
+      "peak_speed": 1.183173,
+      "path": 6.596645,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 427.334,
+      "t_end": 435.238,
+      "start_sec": 427.334,
+      "end_sec": 435.238,
+      "duration_sec": 7.904,
+      "amplitude": 0.40069,
+      "mean_speed": 0.275964,
+      "peak_speed": 1.188875,
+      "path": 2.179482,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 438.955,
+      "t_end": 441.969,
+      "start_sec": 438.955,
+      "end_sec": 441.969,
+      "duration_sec": 3.014,
+      "amplitude": 0.120714,
+      "mean_speed": 0.151156,
+      "peak_speed": 0.311135,
+      "path": 0.453334,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 444.079,
+      "t_end": 446.892,
+      "start_sec": 444.079,
+      "end_sec": 446.892,
+      "duration_sec": 2.813,
+      "amplitude": 0.04516,
+      "mean_speed": 0.127227,
+      "peak_speed": 0.28895,
+      "path": 0.35281,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 456.136,
+      "t_end": 459.116,
+      "start_sec": 456.136,
+      "end_sec": 459.116,
+      "duration_sec": 2.981,
+      "amplitude": 0.066538,
+      "mean_speed": 0.117769,
+      "peak_speed": 0.234743,
+      "path": 0.345433,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 461.628,
+      "t_end": 462.231,
+      "start_sec": 461.628,
+      "end_sec": 462.231,
+      "duration_sec": 0.603,
+      "amplitude": 0.013002,
+      "mean_speed": 0.107102,
+      "peak_speed": 0.190596,
+      "path": 0.063303,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 462.298,
+      "t_end": 463.503,
+      "start_sec": 462.298,
+      "end_sec": 463.503,
+      "duration_sec": 1.206,
+      "amplitude": 0.033279,
+      "mean_speed": 0.149173,
+      "peak_speed": 0.331233,
+      "path": 0.179445,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 464.173,
+      "t_end": 464.776,
+      "start_sec": 464.173,
+      "end_sec": 464.776,
+      "duration_sec": 0.603,
+      "amplitude": 0.035576,
+      "mean_speed": 0.132616,
+      "peak_speed": 0.208667,
+      "path": 0.07598,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 466.049,
+      "t_end": 466.852,
+      "start_sec": 466.049,
+      "end_sec": 466.852,
+      "duration_sec": 0.804,
+      "amplitude": 0.047605,
+      "mean_speed": 0.154569,
+      "peak_speed": 0.400578,
+      "path": 0.119262,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 467.455,
+      "t_end": 468.058,
+      "start_sec": 467.455,
+      "end_sec": 468.058,
+      "duration_sec": 0.603,
+      "amplitude": 0.023769,
+      "mean_speed": 0.100468,
+      "peak_speed": 0.183008,
+      "path": 0.054946,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 468.092,
+      "t_end": 490.53,
+      "start_sec": 468.092,
+      "end_sec": 490.53,
+      "duration_sec": 22.438,
+      "amplitude": 0.243878,
+      "mean_speed": 0.310256,
+      "peak_speed": 1.515231,
+      "path": 6.963455,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 490.731,
+      "t_end": 492.506,
+      "start_sec": 490.731,
+      "end_sec": 492.506,
+      "duration_sec": 1.775,
+      "amplitude": 0.336051,
+      "mean_speed": 0.362754,
+      "peak_speed": 0.835292,
+      "path": 0.635685,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 492.573,
+      "t_end": 494.515,
+      "start_sec": 492.573,
+      "end_sec": 494.515,
+      "duration_sec": 1.942,
+      "amplitude": 0.189897,
+      "mean_speed": 0.234564,
+      "peak_speed": 0.665233,
+      "path": 0.453616,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 498.869,
+      "t_end": 500.376,
+      "start_sec": 498.869,
+      "end_sec": 500.376,
+      "duration_sec": 1.507,
+      "amplitude": 0.039838,
+      "mean_speed": 0.111349,
+      "peak_speed": 0.252755,
+      "path": 0.168556,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 501.314,
+      "t_end": 502.151,
+      "start_sec": 501.314,
+      "end_sec": 502.151,
+      "duration_sec": 0.837,
+      "amplitude": 0.0318,
+      "mean_speed": 0.096799,
+      "peak_speed": 0.21895,
+      "path": 0.082373,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 502.319,
+      "t_end": 505.601,
+      "start_sec": 502.319,
+      "end_sec": 505.601,
+      "duration_sec": 3.282,
+      "amplitude": 0.055974,
+      "mean_speed": 0.146276,
+      "peak_speed": 0.392293,
+      "path": 0.475477,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 506.036,
+      "t_end": 518.494,
+      "start_sec": 506.036,
+      "end_sec": 518.494,
+      "duration_sec": 12.458,
+      "amplitude": 0.169969,
+      "mean_speed": 0.275966,
+      "peak_speed": 1.250647,
+      "path": 3.430646,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 519.666,
+      "t_end": 524.255,
+      "start_sec": 519.666,
+      "end_sec": 524.255,
+      "duration_sec": 4.588,
+      "amplitude": 0.111807,
+      "mean_speed": 0.13899,
+      "peak_speed": 0.541986,
+      "path": 0.632398,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 525.527,
+      "t_end": 531.455,
+      "start_sec": 525.527,
+      "end_sec": 531.455,
+      "duration_sec": 5.928,
+      "amplitude": 0.373522,
+      "mean_speed": 0.305454,
+      "peak_speed": 1.866742,
+      "path": 1.811025,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 532.024,
+      "t_end": 533.23,
+      "start_sec": 532.024,
+      "end_sec": 533.23,
+      "duration_sec": 1.206,
+      "amplitude": 0.027931,
+      "mean_speed": 0.135329,
+      "peak_speed": 0.25572,
+      "path": 0.157673,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 533.833,
+      "t_end": 535.775,
+      "start_sec": 533.833,
+      "end_sec": 535.775,
+      "duration_sec": 1.942,
+      "amplitude": 0.048575,
+      "mean_speed": 0.120809,
+      "peak_speed": 0.247845,
+      "path": 0.229059,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 536.01,
+      "t_end": 540.33,
+      "start_sec": 536.01,
+      "end_sec": 540.33,
+      "duration_sec": 4.32,
+      "amplitude": 0.095158,
+      "mean_speed": 0.190798,
+      "peak_speed": 0.556171,
+      "path": 0.815405,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 543.11,
+      "t_end": 544.985,
+      "start_sec": 543.11,
+      "end_sec": 544.985,
+      "duration_sec": 1.875,
+      "amplitude": 0.072882,
+      "mean_speed": 0.150478,
+      "peak_speed": 0.40948,
+      "path": 0.273728,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 547.162,
+      "t_end": 547.698,
+      "start_sec": 547.162,
+      "end_sec": 547.698,
+      "duration_sec": 0.536,
+      "amplitude": 0.021044,
+      "mean_speed": 0.109102,
+      "peak_speed": 0.248303,
+      "path": 0.060052,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 548.736,
+      "t_end": 559.084,
+      "start_sec": 548.736,
+      "end_sec": 559.084,
+      "duration_sec": 10.348,
+      "amplitude": 0.2362,
+      "mean_speed": 0.230258,
+      "peak_speed": 0.766106,
+      "path": 2.377807,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 559.319,
+      "t_end": 628.442,
+      "start_sec": 559.319,
+      "end_sec": 628.442,
+      "duration_sec": 69.124,
+      "amplitude": 0.737003,
+      "mean_speed": 0.436905,
+      "peak_speed": 2.289417,
+      "path": 30.199228,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 632.294,
+      "t_end": 632.763,
+      "start_sec": 632.294,
+      "end_sec": 632.763,
+      "duration_sec": 0.469,
+      "amplitude": 0.022002,
+      "mean_speed": 0.100484,
+      "peak_speed": 0.186914,
+      "path": 0.043544,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 635.542,
+      "t_end": 636.112,
+      "start_sec": 635.542,
+      "end_sec": 636.112,
+      "duration_sec": 0.569,
+      "amplitude": 0.015729,
+      "mean_speed": 0.110215,
+      "peak_speed": 0.189273,
+      "path": 0.064813,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 636.179,
+      "t_end": 637.485,
+      "start_sec": 636.179,
+      "end_sec": 637.485,
+      "duration_sec": 1.306,
+      "amplitude": 0.035799,
+      "mean_speed": 0.133928,
+      "peak_speed": 0.283284,
+      "path": 0.176581,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 637.82,
+      "t_end": 640.8,
+      "start_sec": 637.82,
+      "end_sec": 640.8,
+      "duration_sec": 2.981,
+      "amplitude": 0.073358,
+      "mean_speed": 0.164422,
+      "peak_speed": 0.378976,
+      "path": 0.481441,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 641.403,
+      "t_end": 642.106,
+      "start_sec": 641.403,
+      "end_sec": 642.106,
+      "duration_sec": 0.703,
+      "amplitude": 0.046875,
+      "mean_speed": 0.191401,
+      "peak_speed": 0.433371,
+      "path": 0.132292,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 642.709,
+      "t_end": 647.063,
+      "start_sec": 642.709,
+      "end_sec": 647.063,
+      "duration_sec": 4.354,
+      "amplitude": 0.051293,
+      "mean_speed": 0.154084,
+      "peak_speed": 0.319694,
+      "path": 0.666823,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    },
+    {
+      "source": "mediapipe",
+      "pattern": "P05",
+      "name": "амплитуда/скорость жестов",
+      "hand": "left",
+      "hand_name": "левая рука",
+      "t_start": 648.369,
+      "t_end": 651.818,
+      "start_sec": 648.369,
+      "end_sec": 651.818,
+      "duration_sec": 3.449,
+      "amplitude": 0.062087,
+      "mean_speed": 0.151669,
+      "peak_speed": 0.480081,
+      "path": 0.524382,
+      "speed_unit": "shoulder_widths_per_second",
+      "amplitude_unit": "shoulder_widths",
+      "path_unit": "shoulder_widths",
+      "clip_pad_sec": 0.0,
+      "clip_file": null,
+      "clip": null,
+      "scenario_label": null,
+      "scenario_kind": null
+    }
+  ],
+  "gesture_frequency": {
+    "method": "trailing_rolling_window",
+    "window_sec": 20.0,
+    "step_sec": 1.0,
+    "unit": "gestures_per_minute",
+    "meaning": "Число новых жестов, начавшихся за предыдущие 20 секунд, пересчитанное в жесты/мин.",
+    "points": [
+      {
+        "time_sec": 0.0,
+        "time_human": "00:00.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 1.0,
+        "time_human": "00:01.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 2.0,
+        "time_human": "00:02.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 3.0,
+        "time_human": "00:03.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 4.0,
+        "time_human": "00:04.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 5.0,
+        "time_human": "00:05.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 6.0,
+        "time_human": "00:06.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 7.0,
+        "time_human": "00:07.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 8.0,
+        "time_human": "00:08.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 9.0,
+        "time_human": "00:09.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 10.0,
+        "time_human": "00:10.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 11.0,
+        "time_human": "00:11.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 3.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 12.0,
+        "time_human": "00:12.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 3.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 13.0,
+        "time_human": "00:13.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 3.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 14.0,
+        "time_human": "00:14.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 3.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 15.0,
+        "time_human": "00:15.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 3.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 16.0,
+        "time_human": "00:16.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 3.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 17.0,
+        "time_human": "00:17.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 3.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 18.0,
+        "time_human": "00:18.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 3.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 19.0,
+        "time_human": "00:19.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 3.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 20.0,
+        "time_human": "00:20.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 3.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 21.0,
+        "time_human": "00:21.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 3.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 22.0,
+        "time_human": "00:22.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 3.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 23.0,
+        "time_human": "00:23.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 3.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 24.0,
+        "time_human": "00:24.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 3.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 25.0,
+        "time_human": "00:25.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 3.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 26.0,
+        "time_human": "00:26.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 3.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 27.0,
+        "time_human": "00:27.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 3.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 28.0,
+        "time_human": "00:28.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 3.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 29.0,
+        "time_human": "00:29.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 3.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 30.0,
+        "time_human": "00:30.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 3.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 31.0,
+        "time_human": "00:31.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 32.0,
+        "time_human": "00:32.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 33.0,
+        "time_human": "00:33.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 34.0,
+        "time_human": "00:34.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 35.0,
+        "time_human": "00:35.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 36.0,
+        "time_human": "00:36.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 37.0,
+        "time_human": "00:37.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 38.0,
+        "time_human": "00:38.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 39.0,
+        "time_human": "00:39.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 40.0,
+        "time_human": "00:40.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 41.0,
+        "time_human": "00:41.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 42.0,
+        "time_human": "00:42.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 43.0,
+        "time_human": "00:43.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 44.0,
+        "time_human": "00:44.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 45.0,
+        "time_human": "00:45.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 46.0,
+        "time_human": "00:46.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 47.0,
+        "time_human": "00:47.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 48.0,
+        "time_human": "00:48.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 49.0,
+        "time_human": "00:49.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 50.0,
+        "time_human": "00:50.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 51.0,
+        "time_human": "00:51.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 52.0,
+        "time_human": "00:52.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 53.0,
+        "time_human": "00:53.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 54.0,
+        "time_human": "00:54.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 55.0,
+        "time_human": "00:55.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 56.0,
+        "time_human": "00:56.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 57.0,
+        "time_human": "00:57.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 58.0,
+        "time_human": "00:58.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 59.0,
+        "time_human": "00:59.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 60.0,
+        "time_human": "01:00.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 61.0,
+        "time_human": "01:01.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 62.0,
+        "time_human": "01:02.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 63.0,
+        "time_human": "01:03.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 64.0,
+        "time_human": "01:04.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 65.0,
+        "time_human": "01:05.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 66.0,
+        "time_human": "01:06.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 67.0,
+        "time_human": "01:07.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 68.0,
+        "time_human": "01:08.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 69.0,
+        "time_human": "01:09.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 70.0,
+        "time_human": "01:10.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 71.0,
+        "time_human": "01:11.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 72.0,
+        "time_human": "01:12.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 73.0,
+        "time_human": "01:13.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 74.0,
+        "time_human": "01:14.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 75.0,
+        "time_human": "01:15.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 76.0,
+        "time_human": "01:16.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 77.0,
+        "time_human": "01:17.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 78.0,
+        "time_human": "01:18.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 79.0,
+        "time_human": "01:19.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 80.0,
+        "time_human": "01:20.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 81.0,
+        "time_human": "01:21.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 82.0,
+        "time_human": "01:22.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 83.0,
+        "time_human": "01:23.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 84.0,
+        "time_human": "01:24.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 85.0,
+        "time_human": "01:25.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 86.0,
+        "time_human": "01:26.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 87.0,
+        "time_human": "01:27.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 88.0,
+        "time_human": "01:28.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 89.0,
+        "time_human": "01:29.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 90.0,
+        "time_human": "01:30.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 91.0,
+        "time_human": "01:31.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 92.0,
+        "time_human": "01:32.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 93.0,
+        "time_human": "01:33.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 94.0,
+        "time_human": "01:34.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 95.0,
+        "time_human": "01:35.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 96.0,
+        "time_human": "01:36.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 97.0,
+        "time_human": "01:37.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 98.0,
+        "time_human": "01:38.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 99.0,
+        "time_human": "01:39.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 100.0,
+        "time_human": "01:40.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 101.0,
+        "time_human": "01:41.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 102.0,
+        "time_human": "01:42.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 103.0,
+        "time_human": "01:43.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 104.0,
+        "time_human": "01:44.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 105.0,
+        "time_human": "01:45.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 106.0,
+        "time_human": "01:46.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 107.0,
+        "time_human": "01:47.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 108.0,
+        "time_human": "01:48.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 109.0,
+        "time_human": "01:49.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 110.0,
+        "time_human": "01:50.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 111.0,
+        "time_human": "01:51.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 112.0,
+        "time_human": "01:52.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 113.0,
+        "time_human": "01:53.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 114.0,
+        "time_human": "01:54.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 115.0,
+        "time_human": "01:55.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 116.0,
+        "time_human": "01:56.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 117.0,
+        "time_human": "01:57.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 118.0,
+        "time_human": "01:58.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 119.0,
+        "time_human": "01:59.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 120.0,
+        "time_human": "02:00.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 121.0,
+        "time_human": "02:01.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 122.0,
+        "time_human": "02:02.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 123.0,
+        "time_human": "02:03.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 124.0,
+        "time_human": "02:04.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 125.0,
+        "time_human": "02:05.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 126.0,
+        "time_human": "02:06.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 127.0,
+        "time_human": "02:07.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 128.0,
+        "time_human": "02:08.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 129.0,
+        "time_human": "02:09.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 130.0,
+        "time_human": "02:10.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 131.0,
+        "time_human": "02:11.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 132.0,
+        "time_human": "02:12.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 133.0,
+        "time_human": "02:13.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 134.0,
+        "time_human": "02:14.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 135.0,
+        "time_human": "02:15.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 136.0,
+        "time_human": "02:16.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 137.0,
+        "time_human": "02:17.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 138.0,
+        "time_human": "02:18.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 139.0,
+        "time_human": "02:19.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 140.0,
+        "time_human": "02:20.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 141.0,
+        "time_human": "02:21.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 142.0,
+        "time_human": "02:22.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 143.0,
+        "time_human": "02:23.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 144.0,
+        "time_human": "02:24.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 145.0,
+        "time_human": "02:25.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 146.0,
+        "time_human": "02:26.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 147.0,
+        "time_human": "02:27.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 148.0,
+        "time_human": "02:28.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 149.0,
+        "time_human": "02:29.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 150.0,
+        "time_human": "02:30.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 151.0,
+        "time_human": "02:31.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 152.0,
+        "time_human": "02:32.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 153.0,
+        "time_human": "02:33.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 154.0,
+        "time_human": "02:34.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 155.0,
+        "time_human": "02:35.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 156.0,
+        "time_human": "02:36.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 157.0,
+        "time_human": "02:37.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 158.0,
+        "time_human": "02:38.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 159.0,
+        "time_human": "02:39.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 160.0,
+        "time_human": "02:40.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 161.0,
+        "time_human": "02:41.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 162.0,
+        "time_human": "02:42.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 163.0,
+        "time_human": "02:43.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 164.0,
+        "time_human": "02:44.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 165.0,
+        "time_human": "02:45.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 166.0,
+        "time_human": "02:46.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 167.0,
+        "time_human": "02:47.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 168.0,
+        "time_human": "02:48.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 169.0,
+        "time_human": "02:49.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 170.0,
+        "time_human": "02:50.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 171.0,
+        "time_human": "02:51.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 172.0,
+        "time_human": "02:52.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 173.0,
+        "time_human": "02:53.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 174.0,
+        "time_human": "02:54.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 175.0,
+        "time_human": "02:55.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 176.0,
+        "time_human": "02:56.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 177.0,
+        "time_human": "02:57.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 178.0,
+        "time_human": "02:58.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 179.0,
+        "time_human": "02:59.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 180.0,
+        "time_human": "03:00.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 181.0,
+        "time_human": "03:01.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 182.0,
+        "time_human": "03:02.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 183.0,
+        "time_human": "03:03.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 184.0,
+        "time_human": "03:04.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 185.0,
+        "time_human": "03:05.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 186.0,
+        "time_human": "03:06.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 187.0,
+        "time_human": "03:07.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 188.0,
+        "time_human": "03:08.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 189.0,
+        "time_human": "03:09.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 190.0,
+        "time_human": "03:10.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 191.0,
+        "time_human": "03:11.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 192.0,
+        "time_human": "03:12.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 193.0,
+        "time_human": "03:13.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 194.0,
+        "time_human": "03:14.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 195.0,
+        "time_human": "03:15.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 196.0,
+        "time_human": "03:16.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 197.0,
+        "time_human": "03:17.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 198.0,
+        "time_human": "03:18.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 199.0,
+        "time_human": "03:19.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 200.0,
+        "time_human": "03:20.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 201.0,
+        "time_human": "03:21.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 202.0,
+        "time_human": "03:22.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 203.0,
+        "time_human": "03:23.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 204.0,
+        "time_human": "03:24.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 205.0,
+        "time_human": "03:25.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 206.0,
+        "time_human": "03:26.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 207.0,
+        "time_human": "03:27.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 208.0,
+        "time_human": "03:28.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 209.0,
+        "time_human": "03:29.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 210.0,
+        "time_human": "03:30.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 211.0,
+        "time_human": "03:31.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 212.0,
+        "time_human": "03:32.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 213.0,
+        "time_human": "03:33.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 214.0,
+        "time_human": "03:34.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 215.0,
+        "time_human": "03:35.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 216.0,
+        "time_human": "03:36.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 217.0,
+        "time_human": "03:37.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 218.0,
+        "time_human": "03:38.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 219.0,
+        "time_human": "03:39.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 220.0,
+        "time_human": "03:40.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 221.0,
+        "time_human": "03:41.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 222.0,
+        "time_human": "03:42.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 223.0,
+        "time_human": "03:43.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 224.0,
+        "time_human": "03:44.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 225.0,
+        "time_human": "03:45.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 226.0,
+        "time_human": "03:46.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 227.0,
+        "time_human": "03:47.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 228.0,
+        "time_human": "03:48.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 229.0,
+        "time_human": "03:49.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 230.0,
+        "time_human": "03:50.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 231.0,
+        "time_human": "03:51.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 232.0,
+        "time_human": "03:52.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 233.0,
+        "time_human": "03:53.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 234.0,
+        "time_human": "03:54.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 235.0,
+        "time_human": "03:55.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 236.0,
+        "time_human": "03:56.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 237.0,
+        "time_human": "03:57.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 238.0,
+        "time_human": "03:58.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 239.0,
+        "time_human": "03:59.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 240.0,
+        "time_human": "04:00.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 241.0,
+        "time_human": "04:01.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 242.0,
+        "time_human": "04:02.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 243.0,
+        "time_human": "04:03.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 244.0,
+        "time_human": "04:04.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 245.0,
+        "time_human": "04:05.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 246.0,
+        "time_human": "04:06.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 247.0,
+        "time_human": "04:07.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 248.0,
+        "time_human": "04:08.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 249.0,
+        "time_human": "04:09.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 250.0,
+        "time_human": "04:10.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 251.0,
+        "time_human": "04:11.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 252.0,
+        "time_human": "04:12.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 253.0,
+        "time_human": "04:13.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 254.0,
+        "time_human": "04:14.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 255.0,
+        "time_human": "04:15.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 256.0,
+        "time_human": "04:16.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 257.0,
+        "time_human": "04:17.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 258.0,
+        "time_human": "04:18.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 259.0,
+        "time_human": "04:19.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 260.0,
+        "time_human": "04:20.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 261.0,
+        "time_human": "04:21.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 262.0,
+        "time_human": "04:22.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 263.0,
+        "time_human": "04:23.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 264.0,
+        "time_human": "04:24.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 265.0,
+        "time_human": "04:25.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 266.0,
+        "time_human": "04:26.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 267.0,
+        "time_human": "04:27.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 268.0,
+        "time_human": "04:28.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 269.0,
+        "time_human": "04:29.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 270.0,
+        "time_human": "04:30.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 271.0,
+        "time_human": "04:31.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 272.0,
+        "time_human": "04:32.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 273.0,
+        "time_human": "04:33.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 274.0,
+        "time_human": "04:34.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 275.0,
+        "time_human": "04:35.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 276.0,
+        "time_human": "04:36.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 277.0,
+        "time_human": "04:37.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 278.0,
+        "time_human": "04:38.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 279.0,
+        "time_human": "04:39.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 280.0,
+        "time_human": "04:40.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 281.0,
+        "time_human": "04:41.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 282.0,
+        "time_human": "04:42.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 283.0,
+        "time_human": "04:43.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 284.0,
+        "time_human": "04:44.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 285.0,
+        "time_human": "04:45.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 286.0,
+        "time_human": "04:46.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 287.0,
+        "time_human": "04:47.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 288.0,
+        "time_human": "04:48.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 289.0,
+        "time_human": "04:49.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 290.0,
+        "time_human": "04:50.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 291.0,
+        "time_human": "04:51.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 292.0,
+        "time_human": "04:52.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 293.0,
+        "time_human": "04:53.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 294.0,
+        "time_human": "04:54.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 295.0,
+        "time_human": "04:55.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 296.0,
+        "time_human": "04:56.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 297.0,
+        "time_human": "04:57.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 298.0,
+        "time_human": "04:58.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 299.0,
+        "time_human": "04:59.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 300.0,
+        "time_human": "05:00.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 301.0,
+        "time_human": "05:01.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 302.0,
+        "time_human": "05:02.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 303.0,
+        "time_human": "05:03.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 304.0,
+        "time_human": "05:04.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 305.0,
+        "time_human": "05:05.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 306.0,
+        "time_human": "05:06.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 307.0,
+        "time_human": "05:07.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 308.0,
+        "time_human": "05:08.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 309.0,
+        "time_human": "05:09.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 310.0,
+        "time_human": "05:10.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 311.0,
+        "time_human": "05:11.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 312.0,
+        "time_human": "05:12.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 313.0,
+        "time_human": "05:13.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 314.0,
+        "time_human": "05:14.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 315.0,
+        "time_human": "05:15.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 316.0,
+        "time_human": "05:16.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 317.0,
+        "time_human": "05:17.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 318.0,
+        "time_human": "05:18.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 319.0,
+        "time_human": "05:19.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 320.0,
+        "time_human": "05:20.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 321.0,
+        "time_human": "05:21.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 322.0,
+        "time_human": "05:22.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 323.0,
+        "time_human": "05:23.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 324.0,
+        "time_human": "05:24.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 325.0,
+        "time_human": "05:25.00",
+        "left_gestures_per_min": 15.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 15.0
+      },
+      {
+        "time_sec": 326.0,
+        "time_human": "05:26.00",
+        "left_gestures_per_min": 15.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 15.0
+      },
+      {
+        "time_sec": 327.0,
+        "time_human": "05:27.00",
+        "left_gestures_per_min": 18.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 18.0
+      },
+      {
+        "time_sec": 328.0,
+        "time_human": "05:28.00",
+        "left_gestures_per_min": 21.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 21.0
+      },
+      {
+        "time_sec": 329.0,
+        "time_human": "05:29.00",
+        "left_gestures_per_min": 21.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 21.0
+      },
+      {
+        "time_sec": 330.0,
+        "time_human": "05:30.00",
+        "left_gestures_per_min": 21.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 21.0
+      },
+      {
+        "time_sec": 331.0,
+        "time_human": "05:31.00",
+        "left_gestures_per_min": 21.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 21.0
+      },
+      {
+        "time_sec": 332.0,
+        "time_human": "05:32.00",
+        "left_gestures_per_min": 21.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 21.0
+      },
+      {
+        "time_sec": 333.0,
+        "time_human": "05:33.00",
+        "left_gestures_per_min": 21.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 21.0
+      },
+      {
+        "time_sec": 334.0,
+        "time_human": "05:34.00",
+        "left_gestures_per_min": 18.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 18.0
+      },
+      {
+        "time_sec": 335.0,
+        "time_human": "05:35.00",
+        "left_gestures_per_min": 18.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 18.0
+      },
+      {
+        "time_sec": 336.0,
+        "time_human": "05:36.00",
+        "left_gestures_per_min": 18.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 18.0
+      },
+      {
+        "time_sec": 337.0,
+        "time_human": "05:37.00",
+        "left_gestures_per_min": 21.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 21.0
+      },
+      {
+        "time_sec": 338.0,
+        "time_human": "05:38.00",
+        "left_gestures_per_min": 21.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 21.0
+      },
+      {
+        "time_sec": 339.0,
+        "time_human": "05:39.00",
+        "left_gestures_per_min": 21.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 21.0
+      },
+      {
+        "time_sec": 340.0,
+        "time_human": "05:40.00",
+        "left_gestures_per_min": 21.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 21.0
+      },
+      {
+        "time_sec": 341.0,
+        "time_human": "05:41.00",
+        "left_gestures_per_min": 21.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 21.0
+      },
+      {
+        "time_sec": 342.0,
+        "time_human": "05:42.00",
+        "left_gestures_per_min": 18.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 18.0
+      },
+      {
+        "time_sec": 343.0,
+        "time_human": "05:43.00",
+        "left_gestures_per_min": 18.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 18.0
+      },
+      {
+        "time_sec": 344.0,
+        "time_human": "05:44.00",
+        "left_gestures_per_min": 18.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 18.0
+      },
+      {
+        "time_sec": 345.0,
+        "time_human": "05:45.00",
+        "left_gestures_per_min": 15.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 15.0
+      },
+      {
+        "time_sec": 346.0,
+        "time_human": "05:46.00",
+        "left_gestures_per_min": 15.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 15.0
+      },
+      {
+        "time_sec": 347.0,
+        "time_human": "05:47.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 348.0,
+        "time_human": "05:48.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 349.0,
+        "time_human": "05:49.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 350.0,
+        "time_human": "05:50.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 351.0,
+        "time_human": "05:51.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 352.0,
+        "time_human": "05:52.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 353.0,
+        "time_human": "05:53.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 354.0,
+        "time_human": "05:54.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 355.0,
+        "time_human": "05:55.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 356.0,
+        "time_human": "05:56.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 357.0,
+        "time_human": "05:57.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 358.0,
+        "time_human": "05:58.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 359.0,
+        "time_human": "05:59.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 360.0,
+        "time_human": "06:00.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 361.0,
+        "time_human": "06:01.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 362.0,
+        "time_human": "06:02.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 363.0,
+        "time_human": "06:03.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 364.0,
+        "time_human": "06:04.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 365.0,
+        "time_human": "06:05.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 366.0,
+        "time_human": "06:06.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 367.0,
+        "time_human": "06:07.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 368.0,
+        "time_human": "06:08.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 369.0,
+        "time_human": "06:09.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 370.0,
+        "time_human": "06:10.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 371.0,
+        "time_human": "06:11.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 372.0,
+        "time_human": "06:12.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 373.0,
+        "time_human": "06:13.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 374.0,
+        "time_human": "06:14.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 375.0,
+        "time_human": "06:15.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 376.0,
+        "time_human": "06:16.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 377.0,
+        "time_human": "06:17.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 378.0,
+        "time_human": "06:18.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 379.0,
+        "time_human": "06:19.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 380.0,
+        "time_human": "06:20.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 381.0,
+        "time_human": "06:21.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 382.0,
+        "time_human": "06:22.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 383.0,
+        "time_human": "06:23.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 384.0,
+        "time_human": "06:24.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 385.0,
+        "time_human": "06:25.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 386.0,
+        "time_human": "06:26.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 387.0,
+        "time_human": "06:27.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 388.0,
+        "time_human": "06:28.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 389.0,
+        "time_human": "06:29.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 390.0,
+        "time_human": "06:30.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 391.0,
+        "time_human": "06:31.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 392.0,
+        "time_human": "06:32.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 393.0,
+        "time_human": "06:33.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 394.0,
+        "time_human": "06:34.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 395.0,
+        "time_human": "06:35.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 396.0,
+        "time_human": "06:36.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 397.0,
+        "time_human": "06:37.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 398.0,
+        "time_human": "06:38.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 399.0,
+        "time_human": "06:39.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 400.0,
+        "time_human": "06:40.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 401.0,
+        "time_human": "06:41.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 402.0,
+        "time_human": "06:42.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 403.0,
+        "time_human": "06:43.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 404.0,
+        "time_human": "06:44.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 405.0,
+        "time_human": "06:45.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 406.0,
+        "time_human": "06:46.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 407.0,
+        "time_human": "06:47.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 408.0,
+        "time_human": "06:48.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 409.0,
+        "time_human": "06:49.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 410.0,
+        "time_human": "06:50.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 411.0,
+        "time_human": "06:51.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 412.0,
+        "time_human": "06:52.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 413.0,
+        "time_human": "06:53.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 414.0,
+        "time_human": "06:54.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 415.0,
+        "time_human": "06:55.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 416.0,
+        "time_human": "06:56.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 417.0,
+        "time_human": "06:57.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 418.0,
+        "time_human": "06:58.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 419.0,
+        "time_human": "06:59.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 420.0,
+        "time_human": "07:00.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 421.0,
+        "time_human": "07:01.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 422.0,
+        "time_human": "07:02.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 423.0,
+        "time_human": "07:03.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 424.0,
+        "time_human": "07:04.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 425.0,
+        "time_human": "07:05.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 426.0,
+        "time_human": "07:06.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 427.0,
+        "time_human": "07:07.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 428.0,
+        "time_human": "07:08.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 429.0,
+        "time_human": "07:09.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 430.0,
+        "time_human": "07:10.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 431.0,
+        "time_human": "07:11.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 432.0,
+        "time_human": "07:12.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 433.0,
+        "time_human": "07:13.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 434.0,
+        "time_human": "07:14.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 435.0,
+        "time_human": "07:15.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 436.0,
+        "time_human": "07:16.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 437.0,
+        "time_human": "07:17.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 438.0,
+        "time_human": "07:18.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 439.0,
+        "time_human": "07:19.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 440.0,
+        "time_human": "07:20.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 441.0,
+        "time_human": "07:21.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 442.0,
+        "time_human": "07:22.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 443.0,
+        "time_human": "07:23.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 444.0,
+        "time_human": "07:24.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 445.0,
+        "time_human": "07:25.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 446.0,
+        "time_human": "07:26.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 447.0,
+        "time_human": "07:27.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 448.0,
+        "time_human": "07:28.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 449.0,
+        "time_human": "07:29.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 450.0,
+        "time_human": "07:30.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 451.0,
+        "time_human": "07:31.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 452.0,
+        "time_human": "07:32.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 453.0,
+        "time_human": "07:33.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 454.0,
+        "time_human": "07:34.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 455.0,
+        "time_human": "07:35.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 456.0,
+        "time_human": "07:36.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 457.0,
+        "time_human": "07:37.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 458.0,
+        "time_human": "07:38.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 459.0,
+        "time_human": "07:39.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 460.0,
+        "time_human": "07:40.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 461.0,
+        "time_human": "07:41.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 462.0,
+        "time_human": "07:42.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 463.0,
+        "time_human": "07:43.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 464.0,
+        "time_human": "07:44.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 465.0,
+        "time_human": "07:45.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 466.0,
+        "time_human": "07:46.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 467.0,
+        "time_human": "07:47.00",
+        "left_gestures_per_min": 15.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 15.0
+      },
+      {
+        "time_sec": 468.0,
+        "time_human": "07:48.00",
+        "left_gestures_per_min": 18.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 18.0
+      },
+      {
+        "time_sec": 469.0,
+        "time_human": "07:49.00",
+        "left_gestures_per_min": 21.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 21.0
+      },
+      {
+        "time_sec": 470.0,
+        "time_human": "07:50.00",
+        "left_gestures_per_min": 21.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 21.0
+      },
+      {
+        "time_sec": 471.0,
+        "time_human": "07:51.00",
+        "left_gestures_per_min": 21.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 21.0
+      },
+      {
+        "time_sec": 472.0,
+        "time_human": "07:52.00",
+        "left_gestures_per_min": 21.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 21.0
+      },
+      {
+        "time_sec": 473.0,
+        "time_human": "07:53.00",
+        "left_gestures_per_min": 21.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 21.0
+      },
+      {
+        "time_sec": 474.0,
+        "time_human": "07:54.00",
+        "left_gestures_per_min": 21.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 21.0
+      },
+      {
+        "time_sec": 475.0,
+        "time_human": "07:55.00",
+        "left_gestures_per_min": 21.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 21.0
+      },
+      {
+        "time_sec": 476.0,
+        "time_human": "07:56.00",
+        "left_gestures_per_min": 21.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 21.0
+      },
+      {
+        "time_sec": 477.0,
+        "time_human": "07:57.00",
+        "left_gestures_per_min": 18.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 18.0
+      },
+      {
+        "time_sec": 478.0,
+        "time_human": "07:58.00",
+        "left_gestures_per_min": 18.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 18.0
+      },
+      {
+        "time_sec": 479.0,
+        "time_human": "07:59.00",
+        "left_gestures_per_min": 18.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 18.0
+      },
+      {
+        "time_sec": 480.0,
+        "time_human": "08:00.00",
+        "left_gestures_per_min": 18.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 18.0
+      },
+      {
+        "time_sec": 481.0,
+        "time_human": "08:01.00",
+        "left_gestures_per_min": 18.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 18.0
+      },
+      {
+        "time_sec": 482.0,
+        "time_human": "08:02.00",
+        "left_gestures_per_min": 15.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 15.0
+      },
+      {
+        "time_sec": 483.0,
+        "time_human": "08:03.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 484.0,
+        "time_human": "08:04.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 485.0,
+        "time_human": "08:05.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 486.0,
+        "time_human": "08:06.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 487.0,
+        "time_human": "08:07.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 488.0,
+        "time_human": "08:08.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 489.0,
+        "time_human": "08:09.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 490.0,
+        "time_human": "08:10.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 491.0,
+        "time_human": "08:11.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 492.0,
+        "time_human": "08:12.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 493.0,
+        "time_human": "08:13.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 494.0,
+        "time_human": "08:14.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 495.0,
+        "time_human": "08:15.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 496.0,
+        "time_human": "08:16.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 497.0,
+        "time_human": "08:17.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 498.0,
+        "time_human": "08:18.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 499.0,
+        "time_human": "08:19.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 500.0,
+        "time_human": "08:20.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 501.0,
+        "time_human": "08:21.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 502.0,
+        "time_human": "08:22.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 503.0,
+        "time_human": "08:23.00",
+        "left_gestures_per_min": 15.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 15.0
+      },
+      {
+        "time_sec": 504.0,
+        "time_human": "08:24.00",
+        "left_gestures_per_min": 15.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 15.0
+      },
+      {
+        "time_sec": 505.0,
+        "time_human": "08:25.00",
+        "left_gestures_per_min": 15.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 15.0
+      },
+      {
+        "time_sec": 506.0,
+        "time_human": "08:26.00",
+        "left_gestures_per_min": 15.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 15.0
+      },
+      {
+        "time_sec": 507.0,
+        "time_human": "08:27.00",
+        "left_gestures_per_min": 18.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 18.0
+      },
+      {
+        "time_sec": 508.0,
+        "time_human": "08:28.00",
+        "left_gestures_per_min": 18.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 18.0
+      },
+      {
+        "time_sec": 509.0,
+        "time_human": "08:29.00",
+        "left_gestures_per_min": 18.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 18.0
+      },
+      {
+        "time_sec": 510.0,
+        "time_human": "08:30.00",
+        "left_gestures_per_min": 18.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 18.0
+      },
+      {
+        "time_sec": 511.0,
+        "time_human": "08:31.00",
+        "left_gestures_per_min": 15.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 15.0
+      },
+      {
+        "time_sec": 512.0,
+        "time_human": "08:32.00",
+        "left_gestures_per_min": 15.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 15.0
+      },
+      {
+        "time_sec": 513.0,
+        "time_human": "08:33.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 514.0,
+        "time_human": "08:34.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 515.0,
+        "time_human": "08:35.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 516.0,
+        "time_human": "08:36.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 517.0,
+        "time_human": "08:37.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 518.0,
+        "time_human": "08:38.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 519.0,
+        "time_human": "08:39.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 520.0,
+        "time_human": "08:40.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 521.0,
+        "time_human": "08:41.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 522.0,
+        "time_human": "08:42.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 523.0,
+        "time_human": "08:43.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 524.0,
+        "time_human": "08:44.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 525.0,
+        "time_human": "08:45.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 526.0,
+        "time_human": "08:46.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 527.0,
+        "time_human": "08:47.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 528.0,
+        "time_human": "08:48.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 529.0,
+        "time_human": "08:49.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 530.0,
+        "time_human": "08:50.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 531.0,
+        "time_human": "08:51.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 532.0,
+        "time_human": "08:52.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 533.0,
+        "time_human": "08:53.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 534.0,
+        "time_human": "08:54.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 535.0,
+        "time_human": "08:55.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 536.0,
+        "time_human": "08:56.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 537.0,
+        "time_human": "08:57.00",
+        "left_gestures_per_min": 15.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 15.0
+      },
+      {
+        "time_sec": 538.0,
+        "time_human": "08:58.00",
+        "left_gestures_per_min": 15.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 15.0
+      },
+      {
+        "time_sec": 539.0,
+        "time_human": "08:59.00",
+        "left_gestures_per_min": 15.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 15.0
+      },
+      {
+        "time_sec": 540.0,
+        "time_human": "09:00.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 541.0,
+        "time_human": "09:01.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 542.0,
+        "time_human": "09:02.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 543.0,
+        "time_human": "09:03.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 544.0,
+        "time_human": "09:04.00",
+        "left_gestures_per_min": 15.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 15.0
+      },
+      {
+        "time_sec": 545.0,
+        "time_human": "09:05.00",
+        "left_gestures_per_min": 15.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 15.0
+      },
+      {
+        "time_sec": 546.0,
+        "time_human": "09:06.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 547.0,
+        "time_human": "09:07.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 548.0,
+        "time_human": "09:08.00",
+        "left_gestures_per_min": 15.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 15.0
+      },
+      {
+        "time_sec": 549.0,
+        "time_human": "09:09.00",
+        "left_gestures_per_min": 18.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 18.0
+      },
+      {
+        "time_sec": 550.0,
+        "time_human": "09:10.00",
+        "left_gestures_per_min": 18.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 18.0
+      },
+      {
+        "time_sec": 551.0,
+        "time_human": "09:11.00",
+        "left_gestures_per_min": 18.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 18.0
+      },
+      {
+        "time_sec": 552.0,
+        "time_human": "09:12.00",
+        "left_gestures_per_min": 18.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 18.0
+      },
+      {
+        "time_sec": 553.0,
+        "time_human": "09:13.00",
+        "left_gestures_per_min": 15.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 15.0
+      },
+      {
+        "time_sec": 554.0,
+        "time_human": "09:14.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 555.0,
+        "time_human": "09:15.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 556.0,
+        "time_human": "09:16.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 557.0,
+        "time_human": "09:17.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 558.0,
+        "time_human": "09:18.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 559.0,
+        "time_human": "09:19.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 560.0,
+        "time_human": "09:20.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 561.0,
+        "time_human": "09:21.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 562.0,
+        "time_human": "09:22.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 563.0,
+        "time_human": "09:23.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 564.0,
+        "time_human": "09:24.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 565.0,
+        "time_human": "09:25.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 566.0,
+        "time_human": "09:26.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 567.0,
+        "time_human": "09:27.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 568.0,
+        "time_human": "09:28.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 569.0,
+        "time_human": "09:29.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 570.0,
+        "time_human": "09:30.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 571.0,
+        "time_human": "09:31.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 572.0,
+        "time_human": "09:32.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 573.0,
+        "time_human": "09:33.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 574.0,
+        "time_human": "09:34.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 575.0,
+        "time_human": "09:35.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 576.0,
+        "time_human": "09:36.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 577.0,
+        "time_human": "09:37.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 578.0,
+        "time_human": "09:38.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 579.0,
+        "time_human": "09:39.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 580.0,
+        "time_human": "09:40.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 581.0,
+        "time_human": "09:41.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 582.0,
+        "time_human": "09:42.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 583.0,
+        "time_human": "09:43.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 584.0,
+        "time_human": "09:44.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 585.0,
+        "time_human": "09:45.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 586.0,
+        "time_human": "09:46.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 587.0,
+        "time_human": "09:47.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 588.0,
+        "time_human": "09:48.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 589.0,
+        "time_human": "09:49.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 590.0,
+        "time_human": "09:50.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 591.0,
+        "time_human": "09:51.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 592.0,
+        "time_human": "09:52.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 593.0,
+        "time_human": "09:53.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 594.0,
+        "time_human": "09:54.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 595.0,
+        "time_human": "09:55.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 596.0,
+        "time_human": "09:56.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 597.0,
+        "time_human": "09:57.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 598.0,
+        "time_human": "09:58.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 599.0,
+        "time_human": "09:59.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 600.0,
+        "time_human": "10:00.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 601.0,
+        "time_human": "10:01.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 602.0,
+        "time_human": "10:02.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 603.0,
+        "time_human": "10:03.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 604.0,
+        "time_human": "10:04.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 605.0,
+        "time_human": "10:05.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 606.0,
+        "time_human": "10:06.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 607.0,
+        "time_human": "10:07.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 608.0,
+        "time_human": "10:08.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 609.0,
+        "time_human": "10:09.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 610.0,
+        "time_human": "10:10.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 611.0,
+        "time_human": "10:11.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 612.0,
+        "time_human": "10:12.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 613.0,
+        "time_human": "10:13.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 614.0,
+        "time_human": "10:14.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 615.0,
+        "time_human": "10:15.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 616.0,
+        "time_human": "10:16.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 617.0,
+        "time_human": "10:17.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 618.0,
+        "time_human": "10:18.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 619.0,
+        "time_human": "10:19.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 620.0,
+        "time_human": "10:20.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 621.0,
+        "time_human": "10:21.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 622.0,
+        "time_human": "10:22.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 623.0,
+        "time_human": "10:23.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 624.0,
+        "time_human": "10:24.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 625.0,
+        "time_human": "10:25.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 626.0,
+        "time_human": "10:26.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 627.0,
+        "time_human": "10:27.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 628.0,
+        "time_human": "10:28.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 629.0,
+        "time_human": "10:29.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 630.0,
+        "time_human": "10:30.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 631.0,
+        "time_human": "10:31.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 632.0,
+        "time_human": "10:32.00",
+        "left_gestures_per_min": 0.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 0.0
+      },
+      {
+        "time_sec": 633.0,
+        "time_human": "10:33.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 634.0,
+        "time_human": "10:34.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 635.0,
+        "time_human": "10:35.00",
+        "left_gestures_per_min": 3.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 3.0
+      },
+      {
+        "time_sec": 636.0,
+        "time_human": "10:36.00",
+        "left_gestures_per_min": 6.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 6.0
+      },
+      {
+        "time_sec": 637.0,
+        "time_human": "10:37.00",
+        "left_gestures_per_min": 9.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 9.0
+      },
+      {
+        "time_sec": 638.0,
+        "time_human": "10:38.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 639.0,
+        "time_human": "10:39.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 640.0,
+        "time_human": "10:40.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 641.0,
+        "time_human": "10:41.00",
+        "left_gestures_per_min": 12.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 12.0
+      },
+      {
+        "time_sec": 642.0,
+        "time_human": "10:42.00",
+        "left_gestures_per_min": 15.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 15.0
+      },
+      {
+        "time_sec": 643.0,
+        "time_human": "10:43.00",
+        "left_gestures_per_min": 18.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 18.0
+      },
+      {
+        "time_sec": 644.0,
+        "time_human": "10:44.00",
+        "left_gestures_per_min": 18.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 18.0
+      },
+      {
+        "time_sec": 645.0,
+        "time_human": "10:45.00",
+        "left_gestures_per_min": 18.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 18.0
+      },
+      {
+        "time_sec": 646.0,
+        "time_human": "10:46.00",
+        "left_gestures_per_min": 18.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 18.0
+      },
+      {
+        "time_sec": 647.0,
+        "time_human": "10:47.00",
+        "left_gestures_per_min": 18.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 18.0
+      },
+      {
+        "time_sec": 648.0,
+        "time_human": "10:48.00",
+        "left_gestures_per_min": 18.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 18.0
+      },
+      {
+        "time_sec": 649.0,
+        "time_human": "10:49.00",
+        "left_gestures_per_min": 21.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 21.0
+      },
+      {
+        "time_sec": 650.0,
+        "time_human": "10:50.00",
+        "left_gestures_per_min": 21.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 21.0
+      },
+      {
+        "time_sec": 651.0,
+        "time_human": "10:51.00",
+        "left_gestures_per_min": 21.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 21.0
+      },
+      {
+        "time_sec": 652.0,
+        "time_human": "10:52.00",
+        "left_gestures_per_min": 21.0,
+        "right_gestures_per_min": 0.0,
+        "total_gestures_per_min": 21.0
+      }
+    ]
+  },
+  "gesture_frequency_graph": "C:\\interview\\openface\\Ezhov_Eduard_geasture_gesture_frequency.png",
+  "overlay_timeline_mp4": "C:\\interview\\openface\\Ezhov_Eduard_geasture.mp4",
+  "notes": [
+    "P05 = амплитуда/скорость жестов. Исходная логика detector не изменена.",
+    "Каждый cut содержит start/end/duration, руку, amplitude, mean_speed, peak_speed и path.",
+    "gesture_frequency = скользящая частота стартов жестов; она не влияет на P05 detector.",
+    "clip_file/clip = null, потому что этот скрипт не вырезает отдельные clips."
+  ]
+}

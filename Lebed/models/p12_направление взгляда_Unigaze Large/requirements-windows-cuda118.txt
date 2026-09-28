@@ -1,0 +1,7 @@
+# Reproducible Windows/NVIDIA environment following UniGaze easy-install guidance.
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.0.1+cu118
+torchvision==0.15.2+cu118
+timm==0.3.2
+
+-r requirements.txt

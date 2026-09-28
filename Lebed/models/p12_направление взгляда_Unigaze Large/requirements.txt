@@ -1,0 +1,10 @@
+# Core dependencies used by the original inference notebook.
+# Install PyTorch separately (see requirements-windows-cuda118.txt or README).
+numpy==1.24.4
+unigaze==0.1.3
+face-alignment
+opencv-python
+tqdm
+Pillow
+scipy
+yacs
