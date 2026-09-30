@@ -1,0 +1,973 @@
+{
+ "A": {
+  "model": {
+   "name": "bs-bigfive",
+   "version": "2.0.0a1",
+   "lang": "ru",
+   "primary": "oceanai",
+   "backend": "ensemble"
+  },
+  "traits": {
+   "openness": {
+    "score": 0.6364
+   },
+   "conscientiousness": {
+    "score": 0.6411
+   },
+   "extraversion": {
+    "score": 0.541
+   },
+   "agreeableness": {
+    "score": 0.656
+   },
+   "emotional_stability": {
+    "score": 0.3543
+   }
+  },
+  "variant_scores": {
+   "oceanai": {
+    "openness": 0.6512,
+    "conscientiousness": 0.6531,
+    "extraversion": 0.5556,
+    "agreeableness": 0.6691,
+    "emotional_stability": 0.3557,
+    "_segments": 17
+   },
+   "mm": {
+    "openness": 0.4146,
+    "conscientiousness": 0.5052,
+    "extraversion": 0.3106,
+    "agreeableness": 0.4753,
+    "emotional_stability": 0.3839,
+    "_segments": 18
+   }
+  },
+  "scores_std_across_segments": {
+   "openness": 0.0619,
+   "conscientiousness": 0.0595,
+   "extraversion": 0.0641,
+   "agreeableness": 0.0653,
+   "emotional_stability": 0.031,
+   "interview": 0.0291
+  },
+  "segments": 18,
+  "duration_sec": 361.2,
+  "timeline": [
+   {
+    "segment": 1,
+    "start": 0.0,
+    "end": 20.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.6704,
+     "conscientiousness": 0.6222,
+     "extraversion": 0.5521,
+     "agreeableness": 0.6639,
+     "emotional_stability": 0.3408,
+     "interview": 0.4143
+    }
+   },
+   {
+    "segment": 2,
+    "start": 20.0,
+    "end": 40.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.6443,
+     "conscientiousness": 0.6761,
+     "extraversion": 0.5688,
+     "agreeableness": 0.6884,
+     "emotional_stability": 0.373,
+     "interview": 0.3843
+    }
+   },
+   {
+    "segment": 3,
+    "start": 40.0,
+    "end": 60.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.6615,
+     "conscientiousness": 0.6776,
+     "extraversion": 0.5673,
+     "agreeableness": 0.6851,
+     "emotional_stability": 0.3827,
+     "interview": 0.4109
+    }
+   },
+   {
+    "segment": 4,
+    "start": 60.0,
+    "end": 80.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.6584,
+     "conscientiousness": 0.6486,
+     "extraversion": 0.5515,
+     "agreeableness": 0.6532,
+     "emotional_stability": 0.3467,
+     "interview": 0.441
+    }
+   },
+   {
+    "segment": 5,
+    "start": 80.0,
+    "end": 100.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.6506,
+     "conscientiousness": 0.6257,
+     "extraversion": 0.5216,
+     "agreeableness": 0.6087,
+     "emotional_stability": 0.3185,
+     "interview": 0.4227
+    }
+   },
+   {
+    "segment": 6,
+    "start": 100.0,
+    "end": 120.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.6371,
+     "conscientiousness": 0.614,
+     "extraversion": 0.524,
+     "agreeableness": 0.6183,
+     "emotional_stability": 0.317,
+     "interview": 0.4113
+    }
+   },
+   {
+    "segment": 7,
+    "start": 120.0,
+    "end": 140.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.6547,
+     "conscientiousness": 0.6485,
+     "extraversion": 0.5637,
+     "agreeableness": 0.6392,
+     "emotional_stability": 0.3464,
+     "interview": 0.4125
+    }
+   },
+   {
+    "segment": 8,
+    "start": 140.0,
+    "end": 160.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.637,
+     "conscientiousness": 0.5958,
+     "extraversion": 0.5236,
+     "agreeableness": 0.6349,
+     "emotional_stability": 0.296,
+     "interview": 0.3966
+    }
+   },
+   {
+    "segment": 9,
+    "start": 160.0,
+    "end": 180.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.6346,
+     "conscientiousness": 0.6542,
+     "extraversion": 0.5421,
+     "agreeableness": 0.6924,
+     "emotional_stability": 0.3589,
+     "interview": 0.428
+    }
+   },
+   {
+    "segment": 10,
+    "start": 180.0,
+    "end": 200.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.6386,
+     "conscientiousness": 0.7118,
+     "extraversion": 0.5926,
+     "agreeableness": 0.7258,
+     "emotional_stability": 0.3999,
+     "interview": 0.4042
+    }
+   },
+   {
+    "segment": 11,
+    "start": 200.0,
+    "end": 220.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.643,
+     "conscientiousness": 0.654,
+     "extraversion": 0.5568,
+     "agreeableness": 0.6935,
+     "emotional_stability": 0.3624,
+     "interview": 0.3768
+    }
+   },
+   {
+    "segment": 12,
+    "start": 220.0,
+    "end": 240.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.6442,
+     "conscientiousness": 0.6713,
+     "extraversion": 0.5579,
+     "agreeableness": 0.6591,
+     "emotional_stability": 0.3651,
+     "interview": 0.3472
+    }
+   },
+   {
+    "segment": 13,
+    "start": 240.0,
+    "end": 260.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.6666,
+     "conscientiousness": 0.6892,
+     "extraversion": 0.5905,
+     "agreeableness": 0.7225,
+     "emotional_stability": 0.4023,
+     "interview": 0.3708
+    }
+   },
+   {
+    "segment": 14,
+    "start": 260.0,
+    "end": 280.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.6551,
+     "conscientiousness": 0.7009,
+     "extraversion": 0.5913,
+     "agreeableness": 0.7363,
+     "emotional_stability": 0.4086,
+     "interview": 0.3645
+    }
+   },
+   {
+    "segment": 15,
+    "start": 280.0,
+    "end": 300.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.6464,
+     "conscientiousness": 0.6818,
+     "extraversion": 0.5656,
+     "agreeableness": 0.684,
+     "emotional_stability": 0.3712,
+     "interview": 0.409
+    }
+   },
+   {
+    "segment": 16,
+    "start": 300.0,
+    "end": 320.0,
+    "members_used": [
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.385,
+     "conscientiousness": 0.4368,
+     "extraversion": 0.2922,
+     "agreeableness": 0.4322,
+     "emotional_stability": 0.3302,
+     "interview": 0.3481
+    }
+   },
+   {
+    "segment": 17,
+    "start": 320.0,
+    "end": 340.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.6608,
+     "conscientiousness": 0.6386,
+     "extraversion": 0.536,
+     "agreeableness": 0.6272,
+     "emotional_stability": 0.3359,
+     "interview": 0.425
+    }
+   },
+   {
+    "segment": 18,
+    "start": 340.0,
+    "end": 361.2,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.6661,
+     "conscientiousness": 0.5955,
+     "extraversion": 0.5405,
+     "agreeableness": 0.6433,
+     "emotional_stability": 0.3229,
+     "interview": 0.4504
+    }
+   }
+  ]
+ },
+ "B": {
+  "model": {
+   "name": "bs-bigfive",
+   "version": "2.0.0a1",
+   "lang": "ru",
+   "primary": "oceanai",
+   "backend": "ensemble"
+  },
+  "traits": {
+   "openness": {
+    "score": 0.631
+   },
+   "conscientiousness": {
+    "score": 0.6864
+   },
+   "extraversion": {
+    "score": 0.629
+   },
+   "agreeableness": {
+    "score": 0.7753
+   },
+   "emotional_stability": {
+    "score": 0.483
+   }
+  },
+  "variant_scores": {
+   "oceanai": {
+    "openness": 0.712,
+    "conscientiousness": 0.755,
+    "extraversion": 0.7298,
+    "agreeableness": 0.8679,
+    "emotional_stability": 0.5298,
+    "_segments": 26
+   },
+   "mm": {
+    "openness": 0.3434,
+    "conscientiousness": 0.4756,
+    "extraversion": 0.2515,
+    "agreeableness": 0.4541,
+    "emotional_stability": 0.3415,
+    "_segments": 33
+   }
+  },
+  "scores_std_across_segments": {
+   "openness": 0.1647,
+   "conscientiousness": 0.1416,
+   "extraversion": 0.2048,
+   "agreeableness": 0.1889,
+   "emotional_stability": 0.0981,
+   "interview": 0.0493
+  },
+  "segments": 33,
+  "duration_sec": 651.8,
+  "timeline": [
+   {
+    "segment": 1,
+    "start": 0.0,
+    "end": 20.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.7098,
+     "conscientiousness": 0.7644,
+     "extraversion": 0.7364,
+     "agreeableness": 0.8569,
+     "emotional_stability": 0.5305,
+     "interview": 0.392
+    }
+   },
+   {
+    "segment": 2,
+    "start": 20.0,
+    "end": 40.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.6872,
+     "conscientiousness": 0.7686,
+     "extraversion": 0.7462,
+     "agreeableness": 0.8765,
+     "emotional_stability": 0.5382,
+     "interview": 0.3112
+    }
+   },
+   {
+    "segment": 3,
+    "start": 40.0,
+    "end": 60.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.7116,
+     "conscientiousness": 0.7592,
+     "extraversion": 0.7269,
+     "agreeableness": 0.8527,
+     "emotional_stability": 0.5231,
+     "interview": 0.3727
+    }
+   },
+   {
+    "segment": 4,
+    "start": 60.0,
+    "end": 80.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.6996,
+     "conscientiousness": 0.7735,
+     "extraversion": 0.7459,
+     "agreeableness": 0.8728,
+     "emotional_stability": 0.5409,
+     "interview": 0.4233
+    }
+   },
+   {
+    "segment": 5,
+    "start": 80.0,
+    "end": 100.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.7097,
+     "conscientiousness": 0.7675,
+     "extraversion": 0.7456,
+     "agreeableness": 0.8894,
+     "emotional_stability": 0.5412,
+     "interview": 0.2819
+    }
+   },
+   {
+    "segment": 6,
+    "start": 100.0,
+    "end": 120.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.7124,
+     "conscientiousness": 0.7568,
+     "extraversion": 0.7229,
+     "agreeableness": 0.8637,
+     "emotional_stability": 0.5288,
+     "interview": 0.3495
+    }
+   },
+   {
+    "segment": 7,
+    "start": 120.0,
+    "end": 140.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.7166,
+     "conscientiousness": 0.7565,
+     "extraversion": 0.7351,
+     "agreeableness": 0.8623,
+     "emotional_stability": 0.5341,
+     "interview": 0.3884
+    }
+   },
+   {
+    "segment": 8,
+    "start": 140.0,
+    "end": 160.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.7069,
+     "conscientiousness": 0.7695,
+     "extraversion": 0.7747,
+     "agreeableness": 0.9002,
+     "emotional_stability": 0.5619,
+     "interview": 0.4512
+    }
+   },
+   {
+    "segment": 9,
+    "start": 160.0,
+    "end": 180.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.6885,
+     "conscientiousness": 0.7446,
+     "extraversion": 0.7412,
+     "agreeableness": 0.8638,
+     "emotional_stability": 0.5188,
+     "interview": 0.3093
+    }
+   },
+   {
+    "segment": 10,
+    "start": 180.0,
+    "end": 200.0,
+    "members_used": [
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.3507,
+     "conscientiousness": 0.5136,
+     "extraversion": 0.2464,
+     "agreeableness": 0.478,
+     "emotional_stability": 0.3528,
+     "interview": 0.3744
+    }
+   },
+   {
+    "segment": 11,
+    "start": 200.0,
+    "end": 220.0,
+    "members_used": [
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.3057,
+     "conscientiousness": 0.4103,
+     "extraversion": 0.2366,
+     "agreeableness": 0.4114,
+     "emotional_stability": 0.3006,
+     "interview": 0.3013
+    }
+   },
+   {
+    "segment": 12,
+    "start": 220.0,
+    "end": 240.0,
+    "members_used": [
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.3399,
+     "conscientiousness": 0.4747,
+     "extraversion": 0.2537,
+     "agreeableness": 0.4517,
+     "emotional_stability": 0.3354,
+     "interview": 0.3496
+    }
+   },
+   {
+    "segment": 13,
+    "start": 240.0,
+    "end": 260.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.7268,
+     "conscientiousness": 0.7387,
+     "extraversion": 0.7082,
+     "agreeableness": 0.838,
+     "emotional_stability": 0.5099,
+     "interview": 0.3486
+    }
+   },
+   {
+    "segment": 14,
+    "start": 260.0,
+    "end": 280.0,
+    "members_used": [
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.2837,
+     "conscientiousness": 0.3668,
+     "extraversion": 0.2074,
+     "agreeableness": 0.3502,
+     "emotional_stability": 0.2578,
+     "interview": 0.2561
+    }
+   },
+   {
+    "segment": 15,
+    "start": 280.0,
+    "end": 300.0,
+    "members_used": [
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.2925,
+     "conscientiousness": 0.3675,
+     "extraversion": 0.2219,
+     "agreeableness": 0.3819,
+     "emotional_stability": 0.2713,
+     "interview": 0.2712
+    }
+   },
+   {
+    "segment": 16,
+    "start": 300.0,
+    "end": 320.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.7094,
+     "conscientiousness": 0.7433,
+     "extraversion": 0.6922,
+     "agreeableness": 0.8335,
+     "emotional_stability": 0.5077,
+     "interview": 0.3827
+    }
+   },
+   {
+    "segment": 17,
+    "start": 320.0,
+    "end": 340.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.715,
+     "conscientiousness": 0.7556,
+     "extraversion": 0.7168,
+     "agreeableness": 0.848,
+     "emotional_stability": 0.5331,
+     "interview": 0.4029
+    }
+   },
+   {
+    "segment": 18,
+    "start": 340.0,
+    "end": 360.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.71,
+     "conscientiousness": 0.7535,
+     "extraversion": 0.7092,
+     "agreeableness": 0.8406,
+     "emotional_stability": 0.5204,
+     "interview": 0.3472
+    }
+   },
+   {
+    "segment": 19,
+    "start": 360.0,
+    "end": 380.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.6834,
+     "conscientiousness": 0.724,
+     "extraversion": 0.7181,
+     "agreeableness": 0.8526,
+     "emotional_stability": 0.4763,
+     "interview": 0.4579
+    }
+   },
+   {
+    "segment": 20,
+    "start": 380.0,
+    "end": 400.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.7055,
+     "conscientiousness": 0.7682,
+     "extraversion": 0.7384,
+     "agreeableness": 0.8618,
+     "emotional_stability": 0.5319,
+     "interview": 0.3599
+    }
+   },
+   {
+    "segment": 21,
+    "start": 400.0,
+    "end": 420.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.7058,
+     "conscientiousness": 0.7457,
+     "extraversion": 0.7204,
+     "agreeableness": 0.854,
+     "emotional_stability": 0.5119,
+     "interview": 0.3559
+    }
+   },
+   {
+    "segment": 22,
+    "start": 420.0,
+    "end": 440.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.7255,
+     "conscientiousness": 0.7354,
+     "extraversion": 0.6864,
+     "agreeableness": 0.8569,
+     "emotional_stability": 0.5155,
+     "interview": 0.3862
+    }
+   },
+   {
+    "segment": 23,
+    "start": 440.0,
+    "end": 460.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.7233,
+     "conscientiousness": 0.746,
+     "extraversion": 0.7272,
+     "agreeableness": 0.8885,
+     "emotional_stability": 0.5206,
+     "interview": 0.3335
+    }
+   },
+   {
+    "segment": 24,
+    "start": 460.0,
+    "end": 480.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.7073,
+     "conscientiousness": 0.747,
+     "extraversion": 0.722,
+     "agreeableness": 0.8707,
+     "emotional_stability": 0.5204,
+     "interview": 0.3281
+    }
+   },
+   {
+    "segment": 25,
+    "start": 480.0,
+    "end": 500.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.7171,
+     "conscientiousness": 0.7569,
+     "extraversion": 0.7219,
+     "agreeableness": 0.8649,
+     "emotional_stability": 0.5307,
+     "interview": 0.2854
+    }
+   },
+   {
+    "segment": 26,
+    "start": 500.0,
+    "end": 520.0,
+    "members_used": [
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.298,
+     "conscientiousness": 0.3655,
+     "extraversion": 0.2203,
+     "agreeableness": 0.3833,
+     "emotional_stability": 0.2773,
+     "interview": 0.2733
+    }
+   },
+   {
+    "segment": 27,
+    "start": 520.0,
+    "end": 540.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.731,
+     "conscientiousness": 0.7678,
+     "extraversion": 0.7486,
+     "agreeableness": 0.8886,
+     "emotional_stability": 0.5529,
+     "interview": 0.3862
+    }
+   },
+   {
+    "segment": 28,
+    "start": 540.0,
+    "end": 560.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.7116,
+     "conscientiousness": 0.7615,
+     "extraversion": 0.7528,
+     "agreeableness": 0.8817,
+     "emotional_stability": 0.5416,
+     "interview": 0.386
+    }
+   },
+   {
+    "segment": 29,
+    "start": 560.0,
+    "end": 580.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.6943,
+     "conscientiousness": 0.7384,
+     "extraversion": 0.6942,
+     "agreeableness": 0.8378,
+     "emotional_stability": 0.4978,
+     "interview": 0.3837
+    }
+   },
+   {
+    "segment": 30,
+    "start": 580.0,
+    "end": 600.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.7359,
+     "conscientiousness": 0.7454,
+     "extraversion": 0.7226,
+     "agreeableness": 0.9137,
+     "emotional_stability": 0.5374,
+     "interview": 0.3819
+    }
+   },
+   {
+    "segment": 31,
+    "start": 600.0,
+    "end": 620.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.7384,
+     "conscientiousness": 0.7883,
+     "extraversion": 0.788,
+     "agreeableness": 0.91,
+     "emotional_stability": 0.6083,
+     "interview": 0.3465
+    }
+   },
+   {
+    "segment": 32,
+    "start": 620.0,
+    "end": 640.0,
+    "members_used": [
+     "oceanai",
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.7284,
+     "conscientiousness": 0.7534,
+     "extraversion": 0.7325,
+     "agreeableness": 0.886,
+     "emotional_stability": 0.5404,
+     "interview": 0.3414
+    }
+   },
+   {
+    "segment": 33,
+    "start": 640.0,
+    "end": 651.8,
+    "members_used": [
+     "mm"
+    ],
+    "scores": {
+     "openness": 0.3072,
+     "conscientiousness": 0.4095,
+     "extraversion": 0.2339,
+     "agreeableness": 0.416,
+     "emotional_stability": 0.2912,
+     "interview": 0.2996
+    }
+   }
+  ]
+ }
+}

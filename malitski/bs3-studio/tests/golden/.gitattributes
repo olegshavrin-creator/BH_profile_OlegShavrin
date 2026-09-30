@@ -1,0 +1,2 @@
+# golden texts are compared byte for byte: keep LF on every checkout
+*.txt text eol=lf

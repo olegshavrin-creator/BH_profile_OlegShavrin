@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bs3-studio"
+version = "3.1.0a1"
+description = "BS Profiler 3.1: personality characterization (Big Five with MBTI notation), emotion, voice, facial-expression and speech analytics from a video of Russian speech, by one model chosen per analysis (OCEAN-AI or AMLAI 1.0). Separate project from BS 2.0 (own package, port, work dir)."
+requires-python = ">=3.10"
+readme = "README.md"
+dependencies = []
+
+[project.scripts]
+bs3 = "bs3.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["bs3*"]
+
+[tool.setuptools.package-data]
+bs3 = ["*.json", "config/*.json"]

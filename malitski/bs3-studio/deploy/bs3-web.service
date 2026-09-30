@@ -1,0 +1,17 @@
+[Unit]
+Description=BS Profiler 3.1 — веб-интерфейс (порт 7880)
+[Service]
+Type=simple
+WorkingDirectory=%h
+Environment=PYTHONWARNINGS=ignore GRADIO_ANALYTICS_ENABLED=False GRADIO_TEMP_DIR=%h/bs3_data/gradio_tmp
+Environment=no_proxy=localhost,127.0.0.1,0.0.0.0 NO_PROXY=localhost,127.0.0.1,0.0.0.0
+ExecStartPre=/bin/mkdir -p %h/bs3_data/logs %h/bs3_data/gradio_tmp
+ExecStartPre=/usr/bin/find %h/bs3_data/gradio_tmp -type f -mtime +0 -delete
+ExecStartPre=/usr/bin/find %h/bs3_data/gradio_tmp -mindepth 1 -type d -empty -delete
+ExecStart=%h/bs/venv/bin/bs3 web --port 7880
+Restart=on-failure
+RestartSec=15
+StandardOutput=append:%h/bs3_data/logs/web.log
+StandardError=append:%h/bs3_data/logs/web.log
+[Install]
+WantedBy=default.target
