@@ -1,0 +1,35 @@
+# BS Profiler 3.1 — проверенные версии зависимостей для общего venv ~/bs/venv (WSL2 Ubuntu-24.04, RTX 5090 Laptop).
+# Общий venv нельзя обновлять произвольно, поэтому версии закреплены точно. Сам пакет ставится отдельно:
+#   pip install --no-deps -e ./bs3-studio        (см. README, «Установка с нуля»)
+# Установка зависимостей:
+#   pip install -r bs3-studio/requirements-wsl.txt
+#   pip install --no-deps oceanai==1.0.0a48       (oceanai ставится без зависимостей — см. ниже)
+
+# --- PyTorch, сборка под CUDA 13.0 (берётся с индекса PyTorch, на PyPI её нет) ---
+--extra-index-url https://download.pytorch.org/whl/cu130
+torch==2.11.0+cu130
+torchvision==0.26.0+cu130
+
+# --- веб, PDF, графики ---
+gradio==5.8.0
+fpdf2==2.8.8
+plotly==7.1.0
+matplotlib==3.11.2
+
+# --- модели и числовые пакеты ---
+transformers==4.45.1
+numpy==1.26.4
+pandas==2.3.3
+
+# --- зрение, звук, речь ---
+opencv-python==4.11.0.86
+opencv-contrib-python==4.11.0.86
+mediapipe==0.10.21
+pillow==11.3.0
+soundfile==0.14.0
+soxr==1.1.0
+librosa==0.11.0
+opensmile==2.6.0
+
+# --- OCEAN-AI: ставить ОТДЕЛЬНО и без зависимостей, иначе тянет конфликтующие версии перечисленных выше пакетов ---
+# pip install --no-deps oceanai==1.0.0a48

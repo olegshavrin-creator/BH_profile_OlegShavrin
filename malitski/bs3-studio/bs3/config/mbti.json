@@ -1,0 +1,16 @@
+{
+  "axes": {"EI": ["extraversion", "E", "I"], "SN": ["openness", "N", "S"],
+           "TF": ["agreeableness", "F", "T"], "JP": ["conscientiousness", "J", "P"]},
+  "borderline": 0.15,
+  "method": "raw",
+  "raw_thresholds": {"EI": 0.5, "SN": 0.5, "TF": 0.5, "JP": 0.5},
+  "correspondence": {"EI": {"r": 0.74, "label": "высокая"}, "SN": {"r": 0.72, "label": "высокая"},
+                     "TF": {"r": 0.44, "label": "средняя"}, "JP": {"r": 0.49, "label": "средняя"}},
+  "type_names_ru": {"ISTJ": "Инспектор", "ISFJ": "Хранитель", "ESTJ": "Организатор", "ESFJ": "Попечитель",
+                    "ISTP": "Мастер", "ISFP": "Художник", "ESTP": "Инициатор", "ESFP": "Артист",
+                    "INFJ": "Советник", "INFP": "Идеалист", "ENFJ": "Наставник", "ENFP": "Вдохновитель",
+                    "INTJ": "Стратег", "INTP": "Теоретик", "ENTJ": "Руководитель", "ENTP": "Изобретатель"},
+  "pole_names_ru": {"E": "экстраверсия", "I": "интроверсия", "S": "сенсорика", "N": "интуиция",
+                    "T": "мышление", "F": "чувство", "J": "суждение", "P": "восприятие"},
+  "min_segments_for_stability": 4
+}
